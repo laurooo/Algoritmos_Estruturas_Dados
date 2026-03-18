@@ -1,10 +1,17 @@
-from Lista import Lista 
+from Lista import Lista
 
 lista = Lista()
 
 lista.imprimir()
-lista.add("joao")
-lista.add("joao22")
-lista.add("joao333")
-lista.add("joao4444")
-lista.add("joao55555")
+
+lista.add( "João" )
+lista.add( "Antônio" )
+lista.add( "Gabriel")
+lista.add( "Antoni" )
+lista.add( "Lorenzo" )
+
+lista.remover( "João" )
+lista.remover( "ABELÃO" )
+lista.remover( "Gabriel")
+lista.remover( "Antoni" )
+lista.remover( "Lorenzo" )
