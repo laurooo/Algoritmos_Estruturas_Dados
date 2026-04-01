@@ -1,5 +1,5 @@
 from No import No
-#Lista Duplamente Encadeada por ordem de chegada
+    
 class ListaDuplamente:
     def __init__(self):
         self.inicio = None
